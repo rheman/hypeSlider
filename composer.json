@@ -1,0 +1,34 @@
+{
+	"name": "pessek/hypeslider",
+	"type": "elgg-plugin",
+	"description": "Content sliders",
+	"keywords": [
+		"elgg", "plugin"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "hypeSlider"
+	},
+	"require": {
+		"php": ">=7.0",
+		"composer/installers": "~1.0",
+		"bower-asset/slick-carousel": "^1.8"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	},
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
